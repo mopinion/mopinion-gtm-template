@@ -14,6 +14,6 @@
 
 homepage: "https://www.mopinion.com"
 documentation: "https://support.mopinion.com/"
-versions:
-  - sha: 
+versions: 
+  - sha: 04e0ef7896e9c703f262355654c03d48a32f5202
     changeNotes: Initial Version
