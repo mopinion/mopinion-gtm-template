@@ -14,11 +14,7 @@ ___INFO___
   "version": 1,
   "securityGroups": [],
   "displayName": "Mopinion Deployment",
-<<<<<<< HEAD
   "categories":"SURVEY",
-=======
-  "categories":["SURVEY"],
->>>>>>> b06438df9c946d6f85d024cc9b390633e80af801
   "brand": {
     "id": "brand_dummy",
     "displayName": "Mopinion",
