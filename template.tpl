@@ -1,4 +1,12 @@
-﻿___INFO___
+﻿___TERMS_OF_SERVICE___
+
+By creating or modifying this file you agree to Google Tag Manager's Community
+Template Gallery Developer Terms of Service available at
+https://developers.google.com/tag-manager/gallery-tos (or such other URL as
+Google may provide), as modified from time to time.
+
+
+___INFO___
 
 {
   "type": "TAG",
@@ -6,7 +14,7 @@
   "version": 1,
   "securityGroups": [],
   "displayName": "Mopinion Deployment",
-  "categories":"SURVEY"
+  "categories":"SURVEY",
   "brand": {
     "id": "brand_dummy",
     "displayName": "Mopinion",
@@ -27,7 +35,19 @@ ___TEMPLATE_PARAMETERS___
     "name": "mopinionDeploymentID",
     "simpleValueType": true,
     "displayName": "Deployment ID",
-    "help": "Get the Deployment Key from the string at the end of the url in the deployment view in the interface or find the id in the deployment script."
+    "help": "Get the Deployment Key from the string at the end of the url in the deployment view in the interface or find the id in the deployment script.",
+    "valueValidators": [
+      {
+        "type": "NON_EMPTY"
+      },
+      {
+        "type": "REGEX",
+        "args": [
+          "\\w{8,}"
+        ],
+        "errorMessage": "Value does not represent a deployment ID"
+      }
+    ]
   }
 ]
 
