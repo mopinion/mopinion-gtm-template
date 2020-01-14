@@ -6,7 +6,7 @@
   "version": 1,
   "securityGroups": [],
   "displayName": "Mopinion Deployment",
-  "categories":"SURVEY"
+  "categories":["SURVEY"],
   "brand": {
     "id": "brand_dummy",
     "displayName": "Mopinion",
