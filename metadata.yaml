@@ -2,8 +2,10 @@ homepage: "https://www.mopinion.com"
 documentation: "https://support.mopinion.com/"
 versions: 
   # Latest version
+  - sha: 982578f27c4d20dfd8f0c749726611b826f405c9
+    changeNotes: Removed commented out code
+  # Older versions
   - sha: 7df4c9d4c6bb11d2c8bedcfc7b68c4a6ce01f5ff
     changeNotes: Initial Version
-  # Older versions
   - sha: 0002ade39cac9933910da017b71019f025cc50051
     changeNotes: First Version
