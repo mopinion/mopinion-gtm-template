@@ -66,6 +66,7 @@ const deploymentID = data.mopinionDeploymentID;
 const onSuccess = () => {
   if (query('access_globals', 'execute', 'Pastease')) {
  callInWindow('Pastease.load', deploymentID);}
+ data.gtmOnSuccess();
 };
 
 const onFail = () => {
